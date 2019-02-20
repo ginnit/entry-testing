@@ -1,0 +1,378 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%; 
+}
+body {
+	margin: 0; 
+	display: table;
+	width:100%;
+}
+header, section {
+	display: block; 
+}
+a {
+	color: #398aa7; 
+	text-decoration: none; 
+}
+
+a:active {
+	color: #398aa7; 
+}
+
+a:hover {
+	color: #1A587A;
+	text-decoration: none; 
+}
+
+a:focus {
+	color: #1A587A;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+body {
+	color: #383838;
+	font-family: Arial,sans-serif;
+	font-size: 18px;
+	background: #fff; 
+}
+header {
+	position:relative;
+	margin-bottom: 36px;
+	height: 80px;
+	background-image: url(../img/background-image.jpg);
+	background-size: cover;
+	background-position: center;
+}
+section {
+	padding: 12px 0 24px;
+	background: #fff;
+}
+section.accent {
+	padding: 0 0 6px;
+	background: #f8f8f8;
+}
+.container {
+	margin: 0 auto;
+	padding: 0 12px;
+}
+section.accent .container {
+		padding: 0;
+	}
+.logo {
+	position: absolute;
+	top: 36px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: #fff;
+	overflow: hidden;
+}
+	.logo img {
+		height: 100%;
+	}
+h2, h3 {
+	font-weight: normal;	
+}	
+h2 {
+	padding: 6px 0 36px;
+	font-size: 24px;
+}
+	section.accent h2 {
+		display: none;		
+	}
+h3 {
+	padding: 6px 0 36px;
+	font-size: 21px;
+}
+	.col-r h3 {
+		padding-bottom: 30px;
+	}
+.cols-two {
+	display: flex;
+	flex-direction: column;
+}	
+.col-l {
+	flex: 1 1 auto;
+}
+.col-r {
+	flex: 1 1 auto;	
+}
+.contact {
+	position: relative;
+    top: 2px;
+	display: flex;
+	flex-direction: row;	
+	padding-bottom: 12px;
+	min-height: 92px;
+}
+.contact-img {
+	flex: 0 0 auto;
+	width: 48px;
+	height: 48px;
+	overflow: hidden;	
+}	
+	.contact-img  img {
+		width: 100%;
+		height: auto;
+		border-radius: 50%;
+	}
+.contact-info {
+	flex: 1 1 auto;
+	padding: 4px 0 0 12px;
+	word-break: break-all;
+}	
+	.contact-info  span, .contact-info  a {
+		display: block;
+	}
+p {
+	line-height: 1.34;
+}
+.about {
+	margin-bottom: 48px;
+}
+.follow {
+	position: relative;
+	top: -16px;
+}
+	.follow  li {
+		padding-bottom: 12px;
+	}
+		.follow a {
+			position: relative;
+			padding-left: 36px;	
+			line-height: 24px;
+		}
+			.follow a i {
+				position: absolute;
+				left: 0;	
+				width: 23px;
+				height: 24px;
+			}	
+.icon-web {background:url(../img/web.svg) 0 0 no-repeat;}		
+.icon-in {background:url(../img/in.svg) 0 0 no-repeat;}	
+.tags {
+	display: flex;	
+	flex-wrap: wrap;
+	margin-bottom: 36px;
+}
+	.tags  li {
+		position: relative;
+		margin-right: 12px;
+		margin-bottom:12px;
+		padding-left: 44px;
+		padding-right: 12px;
+		line-height: 30px;
+		font-size: 15px;
+		background: #f8f8f8;
+		white-space: nowrap;
+	}
+		.tags  li  i {
+			position: absolute;
+			left: 0;
+			width: 30px;
+			height: 30px;
+			background-size: 60% auto;
+		}
+.icon-internet {background:#5A4D99 url(../img/internet.svg) 50% 50% no-repeat;}	
+.icon-culture {background:#BFCC36 url(../img/culture.svg) 50% 50% no-repeat;}	
+.icon-public {background:#1A587A url(../img/handshake.svg) 50% 50% no-repeat;}	
+.search {
+	padding: 12px;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	background: #fff;
+}
+.search input {
+	padding: 6px 36px 8px;
+	width: 100%;
+	border: 1px solid #b2b2b2;
+	border-radius: 6px;
+	background: #fff url(../img/search.svg) 10px 4px no-repeat;
+	background-size: auto 64%;
+	font-size: 15px;
+}
+.cols-three {
+	display: flex;
+	flex-direction: column;
+	margin: 6px 12px 12px;
+	padding-top: 6px;
+}
+.col {	
+	margin-bottom: 12px;
+	padding: 6px 12px;
+	width: 100%;	
+	background: #fff;
+}
+.item {
+	display: flex;
+    flex-direction: column;
+}	
+.item h3  {
+	padding-bottom: 18px;
+	font-size: 24px;
+}
+.item h3 .figure {
+	float: left;
+	margin-right: 12px;
+	border-radius: 6px;
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+}	
+	.item h3 .figure  img{
+		width: 100%;
+		height: auto;
+	}
+.item h3 span {
+	display: block;
+	overflow: hidden;
+}
+.item-info  .by  {
+	display: block;
+	padding-bottom: 18px;
+	color: #757575;
+}
+.item-info p {
+	display: none;
+}
+.format {
+	display: none;
+}
+.state {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 3px 5px;
+	text-align:center;
+	border: 1px solid #398aa7;
+	border-radius: 6px;
+	color: #398aa7;
+	font-size: 15px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.additional {
+	margin-bottom: 6px;
+	text-align: right;
+}
+.additional  h4 {
+	float: right;
+	margin-top: -24px;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: normal;
+}
+.additional  span {
+	display: none;
+}
+.more {
+	display: none;
+}
+.more {
+	padding: 6px;
+	border-radius: 6px;
+	background:#FFA500;
+	text-align: center;
+}
+.more, .more:active, .more:hover, .more:focus {
+	color: #fff;
+	text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+	header {
+		margin-bottom: 56px;
+		height: 200px;
+	}	
+	.logo {
+		top: 130px;
+		width: 142px;
+		height: 142px;
+	}	
+	section {
+		padding: 48px 0 60px;
+	}	
+	section.accent {
+		padding: 112px 0;
+	}	
+	.container {
+		max-width: 984px;
+	}	
+	section.accent .container {
+		padding: 0 12px;
+	}
+	section.accent  h2 {
+		display: block;
+		padding: 0 400px 36px 0;
+		word-break: break-all;
+	}
+	h2 {
+		padding-bottom: 48px;
+		font-size: 36px;
+	}
+	.cols-two {
+		flex-direction: row;
+	}	
+	.col-l {
+		padding-right: 12px;
+	}
+	.col-r {
+		flex: 0 0 auto;
+		padding-left: 12px;
+		width: 226px;
+	}	
+	.tags {
+		margin-bottom: 0;
+	}	
+	.search {
+		float: right;
+		padding: 0;
+		border: 0;
+		background: transparent;
+	}
+	.search input {
+		width: 380px;
+	}
+	.cols-three {
+		flex-direction: row;
+		margin: 0;
+	}
+	.col {	
+		padding: 18px 24px;
+		width: 33.33333%;
+	}
+		.col + .col {
+			margin-left: 24px;
+		}
+	.item-info {
+		min-height: 208px;
+	}		
+	.item-info p {
+		display: block;
+		padding-bottom: 18px;
+	}
+	.format {
+		display: block;
+		padding-bottom: 12px;
+		font-size: 15px;
+	}		
+	.additional  h4 {		
+		float: none;
+		margin-top: 0;
+		font-size: 36px;
+		line-height: 34px;
+	}	
+	.additional  span {
+		display: block;
+		font-size: 12px;
+	}	
+	.more {
+		display: block;
+	}	
+}
